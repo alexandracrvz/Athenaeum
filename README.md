@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Athenaeum
+ # Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Project Links
 
-## Available Scripts
+ - https://github.com/alexandracrvz/Athenaeum
+ - [add your deployment link]()
 
-In the project directory, you can run:
+ ## Project Description
 
-### `npm start`
+ With this Film App called "Athenauem" users will be able to search for a film then be provided with the film's title, poster, genre, and synopsis by fetching the information from the OMDb API. The user can then add their favorite films to a list by clicking the "Add to Favorites" button. This App is useful for film lovers with a desire to be able to easily access a library of films that they love.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ OMDb: https://www.omdbapi.com
 
-### `npm test`
+ This API allows users for fetch data on any movie within OMDb.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ (ADD CODE SNIPPET BELOW)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ## Wireframes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Wireframes: https://imgur.com/a/SvMpmR9
+ - [add link to your react architecture]()
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+ ### MVP/PostMVP - 5min
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ #### MVP
+ - Find and use external api 
+ - Render data on page 
+ - Allow user to interact with the page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ #### PostMVP
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - Add localStorage or firebase for storage
 
-## Learn More
+ ## Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ | Component | Description | 
+ | --- | :---: |  
+ | App | This will make the initial data pull and include React Router and render the header include the nav|
+ | Home | This will render the interactive OMDb API search engine and App description |
+ | Favorites | This will render a list of favorite films created by user |
+ | Add to list | This will render form/input user uses to add favorite films to list |
+ | About | This will render information about how the App works |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+ | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+ | --- | :---: |  :---: | :---: | :---: |
+ | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+ | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+ | Total | H | 6hrs| 5hrs | 5hrs |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ ## Additional Libraries
+  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
-### Analyzing the Bundle Size
+ ## Code Snippet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ (ADD CODE SNIPPET BELOW)
