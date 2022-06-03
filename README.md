@@ -1,15 +1,14 @@
 # Athenaeum
- # Project Overview
- # Beta 1
 
  ## Project Links
-
- - https://github.com/alexandracrvz/Athenaeum
+ 
+ App: https://alexandracrvz.github.io/film_app/
 
  ## Project Description
 
- With this Film App called "Athenaeum" users will be able to search for a film then be provided with the film's title, poster, genre, and synopsis by fetching the information from the OMDb API. 
-Beta 2: The user can then add their favorite films to a list by clicking the "Add to Favorites" button. This App is useful for film lovers with a desire to be able to easily access a library of films that they love.
+Beta 1: With this Film App called "Athenaeum" users will be able to search for a film then be provided with the film's title, poster, genre, and synopsis by fetching the information from the OMDb API. 
+
+Beta 2: The goal will be to allow the user to add their favorite films to a list by clicking the "Add to Favorites" button. This App will be useful for film lovers with a desire to be able to easily access a library of films that they love.
 
  ## API
 
@@ -39,20 +38,12 @@ Beta 2: The user can then add their favorite films to a list by clicking the "Ad
  ## Wireframes
 
  Wireframes: https://imgur.com/a/SvMpmR9
-
-
- ### MVP/PostMVP - 5min
-
- The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+  
 
  #### MVP
  - Find and use external API
  - Render data on page 
  - Allow user to interact with the page
-
- #### PostMVP
-
- - Add localStorage or firebase for storage
 
  ## Components
 
