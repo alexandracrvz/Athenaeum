@@ -18,7 +18,23 @@ Beta 2: The user can then add their favorite films to a list by clicking the "Ad
 
  This API allows users for fetch data on any movie within OMDb.
 
- (ADD CODE SNIPPET BELOW)
+```js
+     fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}`)
+       .then((response) => response.json())
+       .then((data) => {
+         setSearchTerm("");
+         if (data.Error) {
+           setMessage(data.Error);
+           setMovie(null);
+         } else {
+           setMovie(data);
+           setMessage("");
+         }
+       })
+       
+```
+      
+   
 
 
  ## Wireframes
