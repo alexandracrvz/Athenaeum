@@ -8,7 +8,7 @@
 
  ## Project Description
 
- With this Film App called "Athenauem" users will be able to search for a film then be provided with the film's title, poster, genre, and synopsis by fetching the information from the OMDb API. 
+ With this Film App called "Athenaeum" users will be able to search for a film then be provided with the film's title, poster, genre, and synopsis by fetching the information from the OMDb API. 
 Beta 2: The user can then add their favorite films to a list by clicking the "Add to Favorites" button. This App is useful for film lovers with a desire to be able to easily access a library of films that they love.
 
  ## API
