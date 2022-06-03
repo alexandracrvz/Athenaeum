@@ -40,7 +40,6 @@ Beta 2: The user can then add their favorite films to a list by clicking the "Ad
  ## Wireframes
 
  Wireframes: https://imgur.com/a/SvMpmR9
- - [add link to your react architecture]()
 
 
  ### MVP/PostMVP - 5min
@@ -48,7 +47,7 @@ Beta 2: The user can then add their favorite films to a list by clicking the "Ad
  The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
  #### MVP
- - Find and use external api 
+ - Find and use external API
  - Render data on page 
  - Allow user to interact with the page
 
@@ -71,11 +70,21 @@ Beta 2: The user can then add their favorite films to a list by clicking the "Ad
  | --- | :---: |  :---: | :---: | :---: |
  | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
  | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
- | Total | H | 6hrs| 5hrs | 5hrs |
-
- ## Additional Libraries
-  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ | Total | H | 6hrs| 5hrs | 5hrs | 
 
  ## Code Snippet
 
- (ADD CODE SNIPPET BELOW)
+ ```js
+  let movieDisplay = "";
+   if (movie !== null) {
+     movieDisplay = (
+       <div>
+         <h2>Title: {movie.Title}</h2>
+         <h3>Year: {movie.Year}</h3>
+         <img src={movie.Poster} alt={movie.Title} />
+         <h4>Genre: {movie.Genre}</h4>
+         <h5>Plot: {movie.Plot}</h5>
+       </div>
+     );
+   }
+```
